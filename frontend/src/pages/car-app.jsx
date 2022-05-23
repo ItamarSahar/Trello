@@ -49,6 +49,7 @@ function _CarApp({ loadCars, addCar, updateCar, removeCar, addToCart, cars }) {
                             <p>Price: <span>${car.price.toLocaleString()}</span></p>
                             <p>Owner: <span>{car.owner && car.owner.fullname}</span></p>
                             <div>
+                                <label>this git hello!</label>
                                 <button onClick={() => { onRemoveCar(car._id) }}>x</button>
                                 <button onClick={() => { onUpdateCar(car) }}>Edit</button>
                             </div>
